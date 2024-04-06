@@ -8,6 +8,7 @@ form.addEventListener('submit', function(e) {
     const mensagemSucesso = `Parabéns! <b>${numberA.value}</b> é menor que <b>${numberB.value}</b>, validação completa`;
 
     if(numberA.value >= numberB.value) {
+        const containerMesagemSucesso = document.querySelector('.mensagem-sucesso').innerHTML = '';
         numberA.style.border = '1px solid #FF0000';
         const containerMensagemErro = document.querySelector('.mensagem-erro').innerHTML = mensagemErro;
         containerMensagemErro.style.display = 'block';
@@ -18,5 +19,6 @@ form.addEventListener('submit', function(e) {
         const containerMensagemErro = document.querySelector('.mensagem-erro').innerHTML = '';
         const containerMesagemSucesso = document.querySelector('.mensagem-sucesso').innerHTML = mensagemSucesso;
         containerMesagemSucesso.style.display = 'block';
+        
     }
 });
