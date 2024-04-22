@@ -47,6 +47,7 @@ header h1 {
 
 form {
     text-align: center;
+    display: none;
 }
 
 form h2 {
@@ -66,4 +67,8 @@ ul {
 
 ul li {
     margin-bottom: 16px;
+}
+
+.decoration {
+    text-decoration: line-through;
 }
