@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #5356FF;
+    --secundary-color: #DFF5FF;
+    --third-color: #9ADE7B;
+}
+
+.container {
+    max-width: 693px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 34px;
+    color: var(--secundary-color);
+    font-weight: bold;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    color: var(--secundary-color);
+    display: block;
+}
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+button {
+    width: 80px;
+    padding: 6px;
+    background-color: var(--third-color);
+    font-weight: bold;
+    border-radius: 10%;
+    border: none;
+}
