@@ -6,7 +6,6 @@ function Instrumento(nome){
 }
 
 function Cordas(nome, quantasCordas, acustico, eletrico){
-    this.nome = nome;
     this.quantasCordas = quantasCordas;
     this.acustico = acustico;
     this.eletrico = eletrico;
@@ -15,7 +14,6 @@ function Cordas(nome, quantasCordas, acustico, eletrico){
 }
 
 function Percusao(nome, ferragens, peles, tambores, pecasAdicionais) {
-    this.nome = nome;
     this.ferragens = ferragens;
     this.peles = peles;
     this.tambores = tambores;
@@ -26,7 +24,6 @@ function Percusao(nome, ferragens, peles, tambores, pecasAdicionais) {
 }
 
 function Sopro(nome, madeira, palheta, embocadura) {
-    this.nome = nome;
     this.madeira= madeira;
     this.palheta = palheta;
     this.embocadura = embocadura;
